@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Lists = () => {
 
   const img = [{
@@ -44,14 +44,18 @@ const Lists = () => {
           Creative advertisements from around the world highlighted by the AOTW team.
         </p>
       </div>
+
       <div className='grid md:grid-cols-4 gap-4 grid-cols-1'>
         {img.map((event, idx) => {
           return (
 
 
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div key={idx} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                <img className="rounded-t-lg" src={event.add} alt="" />
+                <Image className="rounded-t-lg" src={event.add} alt=""
+                  width={800} // Add this
+                  height={600} // Add this
+                />
               </a>
               <div className="p-5">
                 <a href="#">
@@ -70,7 +74,6 @@ const Lists = () => {
           )
         })}
       </div>
-
     </div>
   )
 }
