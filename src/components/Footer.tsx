@@ -11,7 +11,7 @@ const Footer = () => {
           Subscribe for Newsletter
         </h2>
         <p className='text-slate-500'>
-          Don't miss out. Receive our free weekly newsletter to learn about the best creative work from all around the globe. We're keeping your email safe and confidential.
+          Don&apos;t  miss out. Receive our free weekly newsletter to learn about the best creative work from all around the globe. We're keeping your email safe and confidential.
         </p>
         <div className="flex w-full max-w-sm items-center space-x-2">
           <Input type="email" placeholder="Email..." className="flex-grow" />
