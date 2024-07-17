@@ -49,14 +49,14 @@ export const Carousels = () => {
           opts={{
             align: "start",
           }}
-          className="w-full mx-16  "
+          className="w-full mx-16 bg-slate-950 "
         >
           <CarouselContent>
             {img.map((imageUrl, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="">
                   <div className=" bg-slate-800 opacity-70 hover:opacity-100">
-                    <Card>
+                    <Card className="">
                       <CardContent className="flex aspect-square items-center justify-center p-6">
                         <div className=" overflow-hidden h-full relative">
                           <Image src={imageUrl.add} alt={`Carousel item ${index + 1}`} className="object-cover w-full h-full " width={600} height={800} />

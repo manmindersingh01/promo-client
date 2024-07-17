@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className='bg-slate-900 pt-10 px-2'>
-      <div className='w-full h-72 bg-slate-700 rounded-2xl flex flex-col gap-4 items-center justify-center'>
+    <div className='bg-slate-900 pt-10 '>
+      <div className='w-full h-72 bg-slate-950  flex flex-col gap-4 items-center justify-center'>
         <h2 className='text-4xl font-serif text-slate-200'>
           Subscribe for Newsletter
         </h2>

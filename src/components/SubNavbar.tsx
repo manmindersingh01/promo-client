@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 
 const SubNavbar = () => {
   return (
-    <div className='h-24 bg-slate-800 flex items-center justify-between px-4 sm:px-8'>
+    <div className='h-24 bg-slate-950 flex items-center justify-between px-4 sm:px-8'>
       <div className='flex items-center'>
         <div className='mx-2 sm:mx-4'>
           <svg className='h-8 w-8 sm:h-12 sm:w-12' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -22,7 +22,7 @@ const SubNavbar = () => {
       </div>
       <div className='mx-4'>
         <div className="flex w-full max-w-sm items-center space-x-2">
-          <Input type="search" placeholder="Search" className="flex-grow" />
+          <Input type="search" placeholder="Search" className="flex-grow text-slate-50" />
           <Button variant='outline' type="submit">Search</Button>
         </div>
       </div>
