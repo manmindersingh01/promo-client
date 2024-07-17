@@ -1,4 +1,4 @@
-import { Carousels } from "@/components/Carousel";
+import { Carousels } from "@/components/Highlights";
 import Footer from "@/components/Footer";
 import Lists from "@/components/Lists";
 import Navbar from "@/components/Navbar";

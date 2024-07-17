@@ -140,7 +140,6 @@ const Carousel = React.forwardRef<
           className={cn("relative", className)}
           role="region"
           aria-roledescription="carousel"
-          style={{ zIndex: 0 }} // Adjust this z-index as needed
           {...props}
         >
           {children}
@@ -215,7 +214,6 @@ const CarouselPrevious = React.forwardRef<
       )}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
-      style={{ zIndex: 10 }} // Adjust this z-index as needed
       {...props}
     >
       <ArrowLeftIcon className="h-4 w-4" />
@@ -245,7 +243,6 @@ const CarouselNext = React.forwardRef<
       )}
       disabled={!canScrollNext}
       onClick={scrollNext}
-      style={{ zIndex: 0 }} // Adjust this z-index as needed
       {...props}
     >
       <ArrowRightIcon className="h-4 w-4" />
