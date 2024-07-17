@@ -22,8 +22,8 @@ const SubNavbar = () => {
       </div>
       <div className='mx-4'>
         <div className="flex w-full max-w-sm items-center space-x-2">
-          <Input type="search" placeholder="Search" className="flex-grow text-slate-50" />
-          <Button variant='outline' type="submit">Search</Button>
+          <Input type="search" placeholder="Search" className="flex-grow text-slate-50 " />
+          <Button className='' variant='outline' type="submit">Search</Button>
         </div>
       </div>
     </div>

@@ -44,9 +44,9 @@ export const Carousels = () => {
 
   return (
 
-    <div className=" bg-slate-950 flex justify-center p-2">
+    <div className=" bg-slate-950 flex justify-center p-2 w-full px-14">
 
-      <Carousel className="w-full max-w-7xl ">
+      <Carousel className=" flex ">
         <CarouselContent className="-ml-1">
 
           {img.map((val, index) => (
