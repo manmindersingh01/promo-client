@@ -43,9 +43,10 @@ const Lists = () => {
         <p className='font-extralight text-sm'>
           Creative advertisements from around the world highlighted by the AOTW team.
         </p>
+
       </div>
 
-      <div className='grid md:grid-cols-4 gap-4 grid-cols-1'>
+      <div className='grid md:grid-cols-4 gap-4 grid-cols-1 px-12'>
         {img.map((event, idx) => {
           return (
             <div key={idx} className=" relative max-w-sm bg-slate-950 border border-slate-900 shadow shadow-md rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

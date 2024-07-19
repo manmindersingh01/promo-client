@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 
 const SubNavbar = () => {
   return (
-    <div className='h-24 bg-slate-950 flex items-center justify-between px-4 sm:px-8'>
+    <div className='h-16 bg-slate-950 flex items-center justify-between px-4 sm:px-8'>
       <div className='flex items-center'>
         <div className='mx-2 sm:mx-4'>
           <svg className='h-8 w-8 sm:h-12 sm:w-12' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
