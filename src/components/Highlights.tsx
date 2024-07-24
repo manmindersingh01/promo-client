@@ -18,11 +18,14 @@ import { log } from "console";
 interface Product {
   id: string;
   data: {
-    body: string;
-    description: string;
-    frequent: boolean;
-    imageUrl: string;
-    title: string;
+    data: {
+      body: string;
+      description: string;
+      frequent: boolean;
+      imageUrl: string;
+      title: string;
+    }
+
   };
 }
 
