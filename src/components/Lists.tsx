@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import db from '@/lib/firestore';
-import { collection, getDocs, query, where } from '@firebase/firestore';
+import { collection, getDocs, query, where } from 'firebase/firestore';
 import { log } from 'console';
 
 interface Product {
