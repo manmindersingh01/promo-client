@@ -50,8 +50,8 @@ export const Carousels = () => {
     };
 
     fetchProducts();
-  }, []);
-  console.log("data from high", products[2]);
+  }, [products]);
+  // console.log("data from high", products[2]);
 
   //console.log("Received data in component:", data);
 
@@ -95,10 +95,10 @@ export const Carousels = () => {
 
   return (
     <div className="bg-slate-900 flex justify-center p-2 w-full px-14">
-      <Carousel className="flex">
+      <Carousel className="flex w-full justify-center">
         <CarouselContent className="-ml-1">
           {products.map((val, index) => (
-            <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
+            <CarouselItem key={index} className="pl-1  md:basis-flex-1/3 lg:basis-1/3">
               <div className="p-1 relative group">
                 <Card className="bg-blue-400 overflow-hidden border-none">
                   <CardContent className="flex aspect-square items-center justify-center bg-purple-600 pl-0 pr-0 pb-0 border-none relative">
