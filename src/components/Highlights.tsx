@@ -96,7 +96,7 @@ export const Carousels = () => {
   return (
     <div className="bg-slate-900 flex justify-center p-2 w-full px-14">
       <Carousel className="flex w-full justify-center">
-        <CarouselContent className="-ml-1">
+        <CarouselContent className="-ml-1 w-full">
           {products.map((val, index) => (
             <CarouselItem key={index} className="pl-1  md:basis-flex-1/3 lg:basis-1/3">
               <div className="p-1 relative group">
@@ -112,9 +112,9 @@ export const Carousels = () => {
                       />
                       <div className="absolute inset-0 bg-black opacity-40 group-hover:opacity-0 transition-opacity"></div>
                       <div className="absolute top-1/2 left-1/2 -translate-x-1/2  pt-20 text-center text-white">
-                        <span className="font-extrabold text-4xl">{val.data.data.title}</span>
-                        <span className="block">{val.data.data.body}</span>
-                        <span className="block">{val.data.data.description}</span>
+                        <span className="font-extrabold  capitalizetext-4xl">{val.data.data.title}</span>
+                        <span className=" capitalize block">{val.data.data.body}</span>
+                        <span className="block  capitalize">{val.data.data.description}</span>
                       </div>
                     </div>
                   </CardContent>

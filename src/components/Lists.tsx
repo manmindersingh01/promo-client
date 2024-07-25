@@ -96,11 +96,11 @@ const Lists: React.FC = () => {
             </div>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb text-2xl font-bold tracking-tight text-gray-100 dark:text-white">{event.data.data.title}</h5>
+                <h5 className="mb capitalize text-2xl font-bold tracking-tight text-gray-100 dark:text-white">{event.data.data.title}</h5>
               </a>
 
-              <p className="mb-1 font-normal text-gray-500 dark:text-gray-400">{event.data.data.body}</p>
-              <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">{event.data.data.description}</p>
+              <p className="mb-1 font-normal capitalize text-gray-500 dark:text-gray-400">{event.data.data.body}</p>
+              <p className="mb-3 capitalize font-normal text-gray-500 dark:text-gray-400">{event.data.data.description}</p>
               <div className=' flex justify-between items-center '>
                 <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Read more
